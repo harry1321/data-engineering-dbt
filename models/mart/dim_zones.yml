@@ -1,0 +1,5 @@
+models:
+  - name: dim_zones
+    description: >
+      List of unique zones idefied by locationid. 
+      Includes the service zone they correspond to (Green or yellow).
