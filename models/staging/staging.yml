@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: staging
+    database: datacamp-nytaxi-dbt-2025
+    schema:
+      2025_nytaxi_dbt
+      # loaded_at_field: record_loaded_at
+    tables:
+      - name: green_tripdata
+      - name:
+          yellow_tripdata
+          # freshness:
+          # error_after: {count: 6, period: hour}
