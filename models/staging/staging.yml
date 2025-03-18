@@ -12,3 +12,5 @@ sources:
           yellow_tripdata
           # freshness:
           # error_after: {count: 6, period: hour}
+      - name:
+          fhv_tripdata
